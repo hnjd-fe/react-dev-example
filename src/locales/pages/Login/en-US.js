@@ -1,0 +1,1 @@
+export default {"app.login.submit":"log in","app.login.remember":"remember me","app.login.submitSuc":"Login is successful, jumping!","app.login.submitErr":"The account number or password is incorrect~"}

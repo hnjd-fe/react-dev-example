@@ -1,0 +1,68 @@
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, .2);
+  margin: 16px;
+}
+
+.base-layout {
+  height: 100vh;
+  .base-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: #fff;
+    background-color: #eff0f2;
+    border-bottom: 1px solid #d1d1d1;
+    .switchLang {
+      padding: 5px 10px;
+      color: #999;
+      margin-right: 20px;
+      border: 1px solid #d1d1d1;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+  }
+  .base-content {
+    padding: 24px;
+    background: #fff;
+    height: calc(100vh - 50px);
+  }
+  .ant-menu-inline-collapsed {
+    width: 100%;
+  }
+  .ant-layout-sider-children {
+    .ant-menu-item {
+      text-align: left
+    }
+  }
+  .logo {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, .2);
+  }
+}
+.ant-layout-sider {
+  height: 100vh;
+  overflow: auto;
+}
+
+.ant-dropdown-menu .activeLanguage {
+  color: #1890ff;
+}

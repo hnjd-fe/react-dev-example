@@ -1,0 +1,1 @@
+{"app.BaseLayout.home":"总览","app.BaseLayout.home.index":"主页","app.BaseLayout.logout":"退出登录","app.BaseLayout.language":"切换语言","app.home.title":"一个简单的多语言脚手架, 你好 {world}","app.home.HTMLTitle":"你好，{world}","app.login.submit":"登录","app.login.remember":"记住我","app.login.submitSuc":"登录成功，正在跳转中~","app.login.submitErr":"账号或密码不正确~"}

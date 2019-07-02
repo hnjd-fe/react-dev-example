@@ -1,0 +1,1 @@
+export default {"app.home.title":"A simple multilingual scaffolding, hello {world}","app.home.HTMLTitle":"Hello, {world}"}
